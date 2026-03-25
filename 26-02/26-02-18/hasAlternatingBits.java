@@ -1,7 +1,4 @@
 public class hasAlternatingBits {
-    public static void main(String[] args) {
-        System.out.println(new hasAlternatingBits().hasAlternatingBits(6));
-    }
     public boolean hasAlternatingBits(int n) {
         String num = Integer.toBinaryString(n);
         boolean flag = true;
